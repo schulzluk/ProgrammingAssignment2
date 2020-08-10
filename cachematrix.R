@@ -1,6 +1,9 @@
+## Put comments here that give an overall description of what your
+## functions do
 ## Assumption: all matrices presented to the function pair are of a square size
 ## and indeed invertible.
 
+## Write a short comment describing this function
 ## This is a helper function that creates a "special matrix".
 ## Output: list of 4 functions used in the 2nd function to cache the inverse
 ## of a matrix.
@@ -18,6 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get, setinverse = setinverse, getinverse = getinverse)
 }
 
+## Write a short comment describing this function
 ## This function computes the inverse of the special "matrix"  returned by 
 ## makeCacheMatrix above. If the inverse has already been calculated (and 
 ## the matrix has not changed), then the cachesolve should retrieve the 
